@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: "poppins", sans-serif;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0);
+    height: 1000px;
+}
+
+.bolota1{
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    background-color: rgb(69, 148, 240);
+    z-index: 1;
+    position: fixed;
+    right: 1650px;
+    top: 50px;
+    animation: mover 3s infinite alternate;
+}
+
+.bolota2{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: rgb(69, 148, 240);
+    z-index: 1;
+    position: fixed;
+    left: 1700px;
+    top: 50px;
+    animation: mover 3s infinite alternate;
+}
+
+.bolota3{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgb(69, 148, 240);
+    z-index: 1;
+    position: fixed;
+    left: 1700px;
+    top: 700px;
+    animation: mover 3s infinite alternate;
+}
+
+@keyframes mover{
+    0%{
+        transform: translate(0px);
+    }
+
+    100%{
+        transform: translate(50px);
+    }
+}
+
+
+.box-login{
+    width: 1200px;
+    height: 700px;
+    margin-top: 0px;
+    background-color: rgba(0, 255, 255, 0);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgb(156, 156, 156);
+    z-index: 2;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.div{
+    width: 50%;
+    background-color: rgba(0, 0, 255, 0);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.area-img{
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-image: url(./img/corinthians.png);
+}
+
+form{
+    width: 400px;
+    height: 500px;
+    background-color: rgba(0, 255, 255, 0);
+    margin-right: 100px;
+}
+
+.area-form{
+    width: 50%;
+    background-color: rgb(69, 148, 240);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.area-form h1{
+    position: relative;
+    bottom: 220px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    left: 240px;
+}
+
+label{
+    margin-left: 50px;
+    position: relative;
+    top: 118px;
+    color: white;
+    font-size: 16px;
+}
+
+input{
+    width: 300px;
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 30px;
+    position: relative;
+    top: 100px;
+    padding: 15px;
+    margin-left: 50px;
+    background-color: white;
+}
+
+input:focus{
+    outline: none;
+}
+
+.b2{
+    width: 270px;
+    height: 35px;
+    margin-top: 160px;
+    margin-left: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    transition: transform 0.2s ease;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(69, 148, 240);
+}
+
+.b2:hover{
+    transform: scale(1.1);
+}
+
+.p1 {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    gap: 10px;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+
+.p1 a {
+    text-decoration: none;
+}
+
+.p1 a:hover {
+    text-decoration: underline;
+}
