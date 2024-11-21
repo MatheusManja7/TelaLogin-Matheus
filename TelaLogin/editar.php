@@ -66,10 +66,10 @@ $pdo->close();
                     <input type="text" name="nome" id="" placeholder="Nome Completo" value="<?php echo htmlspecialchars($nome); ?>"><br><br>
 
                     <label>Email</label><br>
-                    <input type="email" name="email" id="" placeholder="Digite o Email" value="<?php echo htmlspecialchars($nome); ?>"><br><br>
+                    <input type="email" name="email" id="" placeholder="Digite o Email" value="<?php echo htmlspecialchars($email); ?>"><br><br>
 
                     <label>Telefone</label><br>
-                    <input type="tel" name="telefone" id="" placeholder="Telefone Completo" value="<?php echo htmlspecialchars($nome); ?>"><br><br>
+                    <input type="tel" name="telefone" id="" placeholder="Telefone Completo" value="<?php echo htmlspecialchars($telefone); ?>"><br><br>
                             
                     <button class="b3">Concluido</button>
             </form>
