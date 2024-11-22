@@ -11,7 +11,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="ListarUsuarios.css">
-   
+    <link rel="stylesheet" href="ListarUsuarios.css">
     <title>Listar Dados</title>
 </head>
 <body>
@@ -42,9 +42,7 @@
                         </td>
                         <td>
                             <a href="delete.php?id=<?php echo $pessoa['id_usuario']; ?>"><button class="excluir">Excluir</button></a>
-                        </td>
-
-                        
+                        </td>      
                     </tr>
                 <?php endforeach;
                     }

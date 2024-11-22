@@ -51,28 +51,31 @@ $pdo->close();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="editar.css">
+    <link rel="stylesheet" href="editar2.css">
     <title>Document</title>
 </head>
 <body>
     <section>
     <a href="areaRestrita.php"><button class="voltar">Voltar</button></a>
         <div class="area-gggg">
-            <form action="" method="post">
-                <div class="area-h1">
-                    <h1>Edição</h1>
-                </div>
-                    <label>Nome</label><br>
-                    <input type="text" name="nome" id="" placeholder="Nome Completo" value="<?php echo htmlspecialchars($nome); ?>"><br><br>
+            <div class="borda">
+                <form action="" method="post">
+                    <div class="area-h1">
+                        <h1>Edição</h1>
+                    </div>
+                        <label>Nome</label><br>
+                        <input type="text" name="nome" id="" placeholder="Nome Completo" value="<?php echo htmlspecialchars($nome); ?>"><br><br>
+                    
+                        <label>Email</label><br>
+                        <input type="email" name="email" id="" placeholder="Digite o Email" value="<?php echo htmlspecialchars($email); ?>"><br><br>
 
-                    <label>Email</label><br>
-                    <input type="email" name="email" id="" placeholder="Digite o Email" value="<?php echo htmlspecialchars($email); ?>"><br><br>
-
-                    <label>Telefone</label><br>
-                    <input type="tel" name="telefone" id="" placeholder="Telefone Completo" value="<?php echo htmlspecialchars($telefone); ?>"><br><br>
-                            
-                    <button class="b3">Concluido</button>
-            </form>
+                        <label>Telefone</label><br>
+                        <input type="tel" name="telefone" id="" placeholder="Telefone Completo" value="<?php echo htmlspecialchars($telefone); ?>"><br><br>
+                                
+                        <button class="b3">Concluido</button>
+                </form>
+            </div>
+           
         </div>
     </section>
     
